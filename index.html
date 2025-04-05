@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeowMagic</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">MeowMagic</a>
+        <div class="menu">
+            <a href="#">Contact</a>
+            <a href="#">Community</a>
+            <a href="#">More info</a>
+            <a href="#">Language</a>
+        </div>
+        <div class="icons">
+            <a href="#"><img src="./img/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="./img/telegram.png" alt="Telegram"></a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h2>🐾 What is MeowMagic?</h2>
+        <p style="font-size: 25px;">Cats are one of the most mysterious and favorite creatures in the world. The stench has accompanied people for thousands of years, standing as symbols of independence, grace and mystery.</p>
+        <img src="./img/magic.png" alt="Cute cats illustration">
+    </section>
+
+    <section class="cards">
+        <div class="card">
+            <img src="./img/ginger.png" alt="Ginger Cat">
+            <h3>Ginger cat</h3>
+            <button class="button" data-cat="ginger">More about this cat</button>
+        </div>
+        <div class="card" > 
+            <img src="./img/bengal.png" alt="Maine Coon" style="margin-top: 25px;">
+            <h3>Maine Coon</h3>
+            <button class="button" data-cat="maineCoone">More about this cat</button>
+        </div>
+        <div class="card">
+            <img src="./img/sphynx.png" alt="Sphynx" style="margin-top: 64px;">
+            <h3>Sphynx</h3>
+            <button class="button" data-cat="sphynx">More about this cat</button>
+        </div>
+        <div class="card">
+            <img src="./img/british.png" alt="British Cat" style="margin-top: 85px;">
+            <h3>British Cat</h3>
+            <button class="button" data-cat="british">More about this cat</button>
+        </div>
+        <div class="card">
+            <img src="./img/ror.png" alt="Siamese Cat" style="margin-top: 15px;">
+            <h3>Siamese Cat</h3>
+            <button class="button" data-cat="siamse">More about this cat</button>
+        </div>
+        <div class="card">
+            <img src="./img/gold.png" alt="Bengal Cat" style="margin-top: 87px;">
+            <h3>Bengal Cat</h3>
+            <button class="button" data-cat="bengal">More about this cat</button>
+        </div>
+    </section>
+
+    <div class="overlay" id="overlay"></div>
+    
+    <div class="modal" id="catModal">
+        <div class="modal-content">
+            <div class="modal-image">
+                <img src="" alt="" id="modalImage">
+            </div>
+            <div class="modal-info">
+                <h3 id="modalName"></h3>
+                <p id="modalText"></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+      <div class="footer">
+        <div>
+          <a href="https://instagram.com" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="40" hspace="10">
+        </a>
+        <a href="https://youtube.com" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube" width="40" hspace="10">
+        </a>
+        <a href="https://linkedin.com" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="40" hspace="10">
+        </a>
+        
+      </div>
+                <div class="TextLinkList1">
+                    <div class="title1"><div class="title11"><div class="title12">Use cases</div></div></div>
+                    <div class="TextListItem1"><div class="Item1">Diagramming</div></div>
+                    <div class="TextListItem11"><div class="Item2">Online whitheboard</div></div>
+                    <div class="TextListItem12"><div class="Item3">Team colloboration</div></div>
+                </div>
+                <div class="TextLinkList2">
+                    <div class="title2"><div class="title21"><div class="title22">Explore</div></div></div>
+                    <div class="TextListItem2"><div class="Item4">Development features</div></div>
+                    <div class="TextListItem21"><div class="Item5">Colloboration features</div></div>
+                </div>
+                <div class="TextLinkList3">
+                    <div class="title3"><div class="title31"><div class="title32">Resources</div></div></div>
+                    <div class="TextListItem3"><div class="Item6">Blog</div></div>
+                    <div class="TextListItem31"><div class="Item7">Support</div></div>
+                    <div class="TextListItem32"><div class="Item8">Developers</div></div>
+                </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
